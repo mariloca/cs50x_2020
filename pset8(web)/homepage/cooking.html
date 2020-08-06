@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Food</title>
+    </head>
+    <script>
+        function blink()
+        {
+            let body = document.querySelector('h1');
+            if (body.style.visibility === 'hidden')
+            {
+                body.style.visibility = 'visible';
+            }
+            else
+            {
+                body.style.visibility = 'hidden';
+            }
+
+        }
+        window.setInterval(blink, 3000);
+    </script>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="reading.html">Books</a></li>
+            <li><a href="photo.html">Photos</a></li>
+            <li><a href="cooking.html">Food</a></li>
+            <li><a href="project.html">Projects</a></li>
+        </ul>
+        <h1>Sharing some of my recent favorite recipes, hope you will like them!</h1>
+        <div class="Recipe">Croissant Recipe</div>
+        <div class="vsrc"><iframe width="420" height="345" src="https://www.youtube.com/embed/WGHmecm7_iU"></iframe></div>
+        <div class="Recipe">Basque Cheesecake Recipe</div>
+        <div class="vsrc"><iframe width="420" height="345" src="https://www.youtube.com/embed/pMa1vhoItTs"></iframe></div>
+        <div class="Recipe">Japanese Cheesecake Recipe</div>
+        <div class="vsrc"><iframe width="420" height="345" src="https://www.youtube.com/embed/SyM3jMFjess"></iframe></div>
+
+    </body>
+</html>

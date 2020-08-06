@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block style %}
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+{% endblock %}
+
+{% block main %}
+
+    <div action-"/">
+        <table>
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Transacted</th>
+            </tr>
+            {% for item in holdings %}
+                <tr>
+                    <td>{{ item['stock'] }}</td>
+                    <td>{{ item['share'] }}</td>
+                    <td>{{ item['price'] }}</td>
+                    <td>{{ item['currentdate'] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block style %}
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    #balance {
+      font-weight: bold;
+    }
+{% endblock %}
+
+{% block main %}
+
+    <div action-"/">
+
+        <table>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+            {% for item in holdings %}
+                <tr>
+                    <td>{{ item['stock'] }}</td>
+                    <td>{{ item['name'] }}</td>
+                    <td>{{ item['shares'] }}</td>
+                    <td>{{ item['price'] }}</td>
+                    <td>{{ item['totalvalue'] }}</td>
+                </tr>
+            {% endfor %}
+            <tr>
+                <td>CASH</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>{{ cashbalance }}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id='balance'>{{ totalbalance }}</td>
+            </tr>
+        </table>
+
+    </div>
+{% endblock %}
+
