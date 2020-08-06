@@ -4,39 +4,39 @@ This repository is my solution to all the problem set of [CS50x(2020)](https://c
 
 ## Table of Contents
 1. [Problem Set 1](pset1)
-    - hello
-    - cash
-    - credit
-    - mario
-      - less
-      - more
-2. Problem Set 2
-    - readability
-    - caesar
-    - substitution
-3. Prblem Set 3
-    - plurality
-    - runoff
-    - tideman
-4. Problem Set 4
+    - [hello](pset1/hello)
+    - [cash](pset1/cash)
+    - [credit](pset1/credit)
+    - [mario](pset1/mario)
+      - [less](pset1/mario/less)
+      - [more](pset1/mario/more)
+2. [Problem Set 2](pset2)
+    - [readability](pset2/readability)
+    - [caesar](pset2/caesar)
+    - [substitution](pset2/substitution)
+3. [Prblem Set 3](pset3)
+    - [plurality](pset3/plurality)
+    - [runoff](pset3/runoff)
+    - [tideman](pset3/tideman)
+4. [Problem Set 4](pset4)
     - filter
-        - less
-        - more
-    - recover
-5. Problem Set 5
-    - speller
-6. Problem Set 6
-    - hello
-    - mario
-        - less
-        - more
-    - cash
-    - credit
-    - readability
-    - dna
-7. Problem Set 7
-    - movies
-    - houses
-8. Problem Set 8
-    - homepage
-    - finance
+        - [less](pset4/filterless)
+        - [more](pset4/filtermore)
+    - [recover](pset4/recover)
+5. [Problem Set 5](pset5)
+    - [speller](pset5/speller)
+6. [Problem Set 6](pset6)
+    - [hello](pset6/hello)
+    - [mario](pset6/mario)
+        - [less](pset6/mario/less)
+        - [more](pset6/mario/more)
+    - [cash](pset6/cash)
+    - [credit](pset6/credit)
+    - [readability](pset6/readability)
+    - [dna](pset6/dna)
+7. [Problem Set 7](pset7)
+    - [movies](pset7/movies)
+    - [houses](pset7/houses)
+8. [Problem Set 8](pset8)
+    - [homepage](pset8/homepage)
+    - [finance](pset8/finance)
