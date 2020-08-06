@@ -4,12 +4,12 @@ This repository is my solution to all the problem set of [CS50x(2020)](https://c
 
 ## Table of Contents
 1. Problem Set 1
-  - hello
-  - cash
-  - credit
-  - mario
-   - less
-   - more
+    - hello
+    - cash
+    - credit
+    - mario
+      - less
+      - more
 2. Problem Set 2
   - readability
   - caesar
