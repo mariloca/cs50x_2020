@@ -3,7 +3,7 @@
 This repository is my solution to all the problem set of [CS50x(2020)](https://cs50.harvard.edu/x/2020/).
 
 ## Table of Contents
-1. Problem Set 1
+1. [Problem Set 1](pset1)
     - hello
     - cash
     - credit
