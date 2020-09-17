@@ -1,1 +1,42 @@
-https://cs50.harvard.edu/x/2020/tracks/web/finance/
+# Finance Project - Create a Stock Trade website
+Implement a website via which users can “buy” and “sell” stocks, a la the below.
+
+## Overview
+Implement Finance, a web app via which you can manage portfolios of stocks. Not only will this tool allow you to check real stocks’ actual prices and portfolios’ values, it will also let you buy (okay, “buy”) and sell (okay, “sell”) stocks by querying IEX for stocks’ prices.
+
+IEX lets you download stock quotes via their API (application programming interface) using URLs like https://cloud-sse.iexapis.com/stable/stock/nflx/quote?token=API_KEY. 
+
+### Code Structure
+- *bmp.h : defines a struct called RGBTRIPLE which encapsulates three bytes: one blue, one green, one red. 
+- *filter.c: main file. 
+- *helpers.h: helper file provides function prototypes for the function I worked with. 
+- *Makefile: specifies what should happen when we run a terminal command. 
+- *images: contains sample '.bmp' images to test the program.
+- helpers.c: implementation of the functions declared in helpers.h.
+- *are files have been written by cs50.
+
+### Environment
+Run on [CS50 IDE](https://ide.cs50.io/).
+Log in with your github account.
+
+### Configuration
+In a terminal window within CS50 IDE, execute
+```
+$ export API_KEY=pk_b94486403d79464faadabbc3d003ec44
+```
+### Running
+Start Flask's built-in web server
+```
+$ flask run
+```
+Visit the URL outputted by flask.
+
+
+
+CS50 Finance project link:[CS50 Finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
+
+
+
+
+
+
