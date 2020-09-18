@@ -9,7 +9,7 @@ IEX lets you download stock quotes via their API (application programming interf
 ### Code Structure
 - static/: saves styles.css, which has some initial CSS lives
 - templates/: template for each webpages
-- helpers.py: has four helper function used in application.py
+- helpers.py: has 4 helper functions used in application.py
 - application.py: implements 8 routes of the web App
 - finance.db: database that stores user information and stock trading records
 - requirements.txt: prescribes the packages on which this app will depend
