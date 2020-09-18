@@ -7,11 +7,12 @@ Implement Finance, a web app via which you can manage portfolios of stocks. Not 
 IEX lets you download stock quotes via their API (application programming interface) using URLs like https://cloud-sse.iexapis.com/stable/stock/nflx/quote?token=API_KEY. 
 
 ### Code Structure
-- *static/: saves styles.css, which has some initial CSS lives
+- static/: saves styles.css, which has some initial CSS lives
 - templates/: template for each webpages
-- helper.py: has four helper function used in application.py
-- application.py: 
-- *are files have been written by cs50.
+- helpers.py: has four helper function used in application.py
+- application.py: implements 8 routes of the web App
+- finance.db: database that stores user information and stock trading records
+- requirements.txt: prescribes the packages on which this app will depend
 
 ### Environment
 Run on [CS50 IDE](https://ide.cs50.io/).
