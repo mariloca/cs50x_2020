@@ -5,12 +5,9 @@ Build a homepage using HTML, CSS, and JavaScript
 Create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
 
 ### Code Structure
-- static/: saves styles.css, which has some initial CSS lives
-- templates/: template for each webpages
-- helpers.py: has 4 helper functions used in application.py
-- application.py: implements 8 routes of the web App
-- finance.db: database that stores user information and stock trading records
-- requirements.txt: prescribes the packages on which this app will depend
+- index.html: main page of the homepage
+- styles.css: stylesheet for the website
+
 
 ### Environment
 Run on [CS50 IDE](https://ide.cs50.io/).
