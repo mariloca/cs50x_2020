@@ -33,7 +33,7 @@ Visit the URL outputted by flask.
 
 
 
-CS50 Finance project link:[CS50 Finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
+CS50 Finance project link: [CS50 Finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 
 
 
