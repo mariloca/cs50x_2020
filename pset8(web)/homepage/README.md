@@ -2,7 +2,7 @@
 Build a homepage using HTML, CSS, and JavaScript
 
 ## Overview
-Create a simple homepage that introduces yourself, your favorite hobby or extracurricular, or anything else of interest to you.
+Create a simple homepage that introduces myself, my favorite hobby or extracurricular, or anything else of interest to me.
 
 ### Code Structure
 - index.html: main page of the homepage
