@@ -8,11 +8,9 @@ IEX lets you download stock quotes via their API (application programming interf
 
 ### Code Structure
 - *static/: saves styles.css, which has some initial CSS lives
-- templates/:
-  - In login.html is, essentially, just an HTML form, stylized with Bootstrap In apology.html, meanwhile, is a template for an apology. Recall that apology in helpers.py took two arguments: message, which was passed to render_template as the value of bottom, and, optionally, code, which was passed to render_template as the value of top. Notice in apology.html how those values are ultimately used! And here’s why. 0:-)
-
-Last up is layout.html. It’s a bit bigger than usual, but that’s mostly because it comes with a fancy, mobile-friendly “navbar” (navigation bar), also based on Bootstrap. Notice how it defines a block, main, inside of which templates (including apology.html and login.html) shall go. It also includes support for Flask’s message flashing so that you can relay messages from one route to another for the user to see.
-
+- templates/: template for each webpages
+- helper.py: has four helper function used in application.py
+- application.py: 
 - *are files have been written by cs50.
 
 ### Environment
